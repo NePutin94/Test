@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(Test)
 set(CMAKE_CXX_STANDARD 17)
-set(SFML_STATIC_LIBRARIES TRUE)
 find_package(SFML 2.5.1 REQUIRED system window graphics network audio)
 include_directories(${SFML_INCLUDE_DIRS})
 message("${SFML_INCLUDE_DIRS} ${SFML_LIBRARIES} ${SFML_DIR} ${SFML_DEPENDENCIES}")

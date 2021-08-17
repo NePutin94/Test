@@ -8,7 +8,7 @@ else()
     set(CMAKE_CXX_FLAGS "-O3 -mwindows -DNDEBUG -s")
 endif()
 
-set(SDLTTFDIR /usr/lib/x86_64-linux-gnu)
+set(SDLTTFDIR /usr/include/SDL2/)
 
 find_package(SDL_ttf REQUIRED)
 find_package(SDL2 REQUIRED)

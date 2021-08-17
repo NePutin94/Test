@@ -10,12 +10,12 @@ endif()
 
 set(SDLTTFDIR /usr/include/SDL2/)
 
-find_package(SDL_ttf REQUIRED)
+
 find_package(SDL2 REQUIRED)
 find_package(Freetype REQUIRED)
 find_package(RTTR CONFIG REQUIRED Core)
-find_package(SDL2 REQUIRED)
 find_package(OpenGL REQUIRED)
+find_package(SDL_ttf REQUIRED)
 find_package(SDL_image REQUIRED)
 
 add_executable(palka Source.cpp)
